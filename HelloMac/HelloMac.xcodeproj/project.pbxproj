@@ -13,9 +13,10 @@
 		AA05E5F016C0FFC400F761E7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AA05E5EE16C0FFC400F761E7 /* Credits.rtf */; };
 		AA05E5F316C0FFC400F761E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA05E5F216C0FFC400F761E7 /* AppDelegate.m */; };
 		AA05E5F616C0FFC500F761E7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA05E5F416C0FFC500F761E7 /* MainMenu.xib */; };
-		AA05E60316C103D200F761E7 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA05E60216C103D200F761E7 /* MainView.xib */; };
 		AA05E60B16C104F000F761E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA05E60916C104F000F761E7 /* LoginViewController.m */; };
 		AA05E60C16C104F000F761E7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA05E60A16C104F000F761E7 /* LoginViewController.xib */; };
+		AA05E61516C1087F00F761E7 /* facebook_big.png in Resources */ = {isa = PBXBuildFile; fileRef = AA05E61316C1087F00F761E7 /* facebook_big.png */; };
+		AA05E61616C1087F00F761E7 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = AA05E61416C1087F00F761E7 /* facebook.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +33,11 @@
 		AA05E5F116C0FFC400F761E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA05E5F216C0FFC400F761E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AA05E5F516C0FFC500F761E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		AA05E60216C103D200F761E7 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		AA05E60816C104F000F761E7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		AA05E60916C104F000F761E7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		AA05E60A16C104F000F761E7 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		AA05E61316C1087F00F761E7 /* facebook_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_big.png; sourceTree = "<group>"; };
+		AA05E61416C1087F00F761E7 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				AA05E5F216C0FFC400F761E7 /* AppDelegate.m */,
 				AA05E5F416C0FFC500F761E7 /* MainMenu.xib */,
 				AA05E60016C103AB00F761E7 /* ViewControllers */,
+				AA05E61216C1082B00F761E7 /* Assets */,
 				AA05E5E616C0FFC400F761E7 /* Supporting Files */,
 			);
 			path = HelloMac;
@@ -113,12 +116,20 @@
 		AA05E60016C103AB00F761E7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				AA05E60216C103D200F761E7 /* MainView.xib */,
 				AA05E60816C104F000F761E7 /* LoginViewController.h */,
 				AA05E60916C104F000F761E7 /* LoginViewController.m */,
 				AA05E60A16C104F000F761E7 /* LoginViewController.xib */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AA05E61216C1082B00F761E7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AA05E61316C1087F00F761E7 /* facebook_big.png */,
+				AA05E61416C1087F00F761E7 /* facebook.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,8 +186,9 @@
 				AA05E5EA16C0FFC400F761E7 /* InfoPlist.strings in Resources */,
 				AA05E5F016C0FFC400F761E7 /* Credits.rtf in Resources */,
 				AA05E5F616C0FFC500F761E7 /* MainMenu.xib in Resources */,
-				AA05E60316C103D200F761E7 /* MainView.xib in Resources */,
 				AA05E60C16C104F000F761E7 /* LoginViewController.xib in Resources */,
+				AA05E61516C1087F00F761E7 /* facebook_big.png in Resources */,
+				AA05E61616C1087F00F761E7 /* facebook.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
