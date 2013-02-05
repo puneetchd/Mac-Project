@@ -14,6 +14,8 @@
 		AA05E5F316C0FFC400F761E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA05E5F216C0FFC400F761E7 /* AppDelegate.m */; };
 		AA05E5F616C0FFC500F761E7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA05E5F416C0FFC500F761E7 /* MainMenu.xib */; };
 		AA05E60316C103D200F761E7 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA05E60216C103D200F761E7 /* MainView.xib */; };
+		AA05E60B16C104F000F761E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA05E60916C104F000F761E7 /* LoginViewController.m */; };
+		AA05E60C16C104F000F761E7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA05E60A16C104F000F761E7 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		AA05E5F216C0FFC400F761E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AA05E5F516C0FFC500F761E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		AA05E60216C103D200F761E7 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		AA05E60816C104F000F761E7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AA05E60916C104F000F761E7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		AA05E60A16C104F000F761E7 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				AA05E60216C103D200F761E7 /* MainView.xib */,
+				AA05E60816C104F000F761E7 /* LoginViewController.h */,
+				AA05E60916C104F000F761E7 /* LoginViewController.m */,
+				AA05E60A16C104F000F761E7 /* LoginViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -168,6 +176,7 @@
 				AA05E5F016C0FFC400F761E7 /* Credits.rtf in Resources */,
 				AA05E5F616C0FFC500F761E7 /* MainMenu.xib in Resources */,
 				AA05E60316C103D200F761E7 /* MainView.xib in Resources */,
+				AA05E60C16C104F000F761E7 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +189,7 @@
 			files = (
 				AA05E5EC16C0FFC400F761E7 /* main.m in Sources */,
 				AA05E5F316C0FFC400F761E7 /* AppDelegate.m in Sources */,
+				AA05E60B16C104F000F761E7 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
