@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA05E5E016C0FFC400F761E7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA05E5DF16C0FFC400F761E7 /* Cocoa.framework */; };
+		AA05E5EA16C0FFC400F761E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA05E5E816C0FFC400F761E7 /* InfoPlist.strings */; };
+		AA05E5EC16C0FFC400F761E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA05E5EB16C0FFC400F761E7 /* main.m */; };
+		AA05E5F016C0FFC400F761E7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AA05E5EE16C0FFC400F761E7 /* Credits.rtf */; };
+		AA05E5F316C0FFC400F761E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA05E5F216C0FFC400F761E7 /* AppDelegate.m */; };
+		AA05E5F616C0FFC500F761E7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA05E5F416C0FFC500F761E7 /* MainMenu.xib */; };
+		AA05E60316C103D200F761E7 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA05E60216C103D200F761E7 /* MainView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA05E5DB16C0FFC400F761E7 /* HelloMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA05E5DF16C0FFC400F761E7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA05E5E216C0FFC400F761E7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA05E5E316C0FFC400F761E7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA05E5E416C0FFC400F761E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA05E5E716C0FFC400F761E7 /* HelloMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloMac-Info.plist"; sourceTree = "<group>"; };
+		AA05E5E916C0FFC400F761E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA05E5EB16C0FFC400F761E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA05E5ED16C0FFC400F761E7 /* HelloMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloMac-Prefix.pch"; sourceTree = "<group>"; };
+		AA05E5EF16C0FFC400F761E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AA05E5F116C0FFC400F761E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA05E5F216C0FFC400F761E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA05E5F516C0FFC500F761E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA05E60216C103D200F761E7 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA05E5D816C0FFC400F761E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA05E5E016C0FFC400F761E7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA05E5D016C0FFC400F761E7 = {
+			isa = PBXGroup;
+			children = (
+				AA05E5E516C0FFC400F761E7 /* HelloMac */,
+				AA05E5DE16C0FFC400F761E7 /* Frameworks */,
+				AA05E5DC16C0FFC400F761E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA05E5DC16C0FFC400F761E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA05E5DB16C0FFC400F761E7 /* HelloMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA05E5DE16C0FFC400F761E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA05E5DF16C0FFC400F761E7 /* Cocoa.framework */,
+				AA05E5E116C0FFC400F761E7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA05E5E116C0FFC400F761E7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA05E5E216C0FFC400F761E7 /* AppKit.framework */,
+				AA05E5E316C0FFC400F761E7 /* CoreData.framework */,
+				AA05E5E416C0FFC400F761E7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AA05E5E516C0FFC400F761E7 /* HelloMac */ = {
+			isa = PBXGroup;
+			children = (
+				AA05E5F116C0FFC400F761E7 /* AppDelegate.h */,
+				AA05E5F216C0FFC400F761E7 /* AppDelegate.m */,
+				AA05E5F416C0FFC500F761E7 /* MainMenu.xib */,
+				AA05E60016C103AB00F761E7 /* ViewControllers */,
+				AA05E5E616C0FFC400F761E7 /* Supporting Files */,
+			);
+			path = HelloMac;
+			sourceTree = "<group>";
+		};
+		AA05E5E616C0FFC400F761E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA05E5E716C0FFC400F761E7 /* HelloMac-Info.plist */,
+				AA05E5E816C0FFC400F761E7 /* InfoPlist.strings */,
+				AA05E5EB16C0FFC400F761E7 /* main.m */,
+				AA05E5ED16C0FFC400F761E7 /* HelloMac-Prefix.pch */,
+				AA05E5EE16C0FFC400F761E7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA05E60016C103AB00F761E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA05E60216C103D200F761E7 /* MainView.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA05E5DA16C0FFC400F761E7 /* HelloMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA05E5F916C0FFC500F761E7 /* Build configuration list for PBXNativeTarget "HelloMac" */;
+			buildPhases = (
+				AA05E5D716C0FFC400F761E7 /* Sources */,
+				AA05E5D816C0FFC400F761E7 /* Frameworks */,
+				AA05E5D916C0FFC400F761E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMac;
+			productName = HelloMac;
+			productReference = AA05E5DB16C0FFC400F761E7 /* HelloMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA05E5D216C0FFC400F761E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Puneet's";
+			};
+			buildConfigurationList = AA05E5D516C0FFC400F761E7 /* Build configuration list for PBXProject "HelloMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA05E5D016C0FFC400F761E7;
+			productRefGroup = AA05E5DC16C0FFC400F761E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA05E5DA16C0FFC400F761E7 /* HelloMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA05E5D916C0FFC400F761E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA05E5EA16C0FFC400F761E7 /* InfoPlist.strings in Resources */,
+				AA05E5F016C0FFC400F761E7 /* Credits.rtf in Resources */,
+				AA05E5F616C0FFC500F761E7 /* MainMenu.xib in Resources */,
+				AA05E60316C103D200F761E7 /* MainView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA05E5D716C0FFC400F761E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA05E5EC16C0FFC400F761E7 /* main.m in Sources */,
+				AA05E5F316C0FFC400F761E7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA05E5E816C0FFC400F761E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA05E5E916C0FFC400F761E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA05E5EE16C0FFC400F761E7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA05E5EF16C0FFC400F761E7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AA05E5F416C0FFC500F761E7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA05E5F516C0FFC500F761E7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA05E5F716C0FFC500F761E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA05E5F816C0FFC500F761E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA05E5FA16C0FFC500F761E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMac/HelloMac-Prefix.pch";
+				INFOPLIST_FILE = "HelloMac/HelloMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA05E5FB16C0FFC500F761E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMac/HelloMac-Prefix.pch";
+				INFOPLIST_FILE = "HelloMac/HelloMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA05E5D516C0FFC400F761E7 /* Build configuration list for PBXProject "HelloMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05E5F716C0FFC500F761E7 /* Debug */,
+				AA05E5F816C0FFC500F761E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA05E5F916C0FFC500F761E7 /* Build configuration list for PBXNativeTarget "HelloMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05E5FA16C0FFC500F761E7 /* Debug */,
+				AA05E5FB16C0FFC500F761E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA05E5D216C0FFC400F761E7 /* Project object */;
+}
